@@ -11,4 +11,8 @@ class Film extends Model
         'year',
     ];
 
+    public function tags()
+    {
+        return $this->belongsToMany('App\Tag', 'film_tag_links');
+    }
 }

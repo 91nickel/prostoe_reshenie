@@ -42,6 +42,4 @@ class FilmTagLink extends Model
 
         return $arResult['noActiveTags'];
     }
-
-
 }
